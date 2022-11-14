@@ -11,6 +11,12 @@
 		439C1D5E292015DB003A1BA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439C1D5D292015DB003A1BA8 /* ContentView.swift */; };
 		439C1D60292015E4003A1BA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 439C1D5F292015E4003A1BA8 /* Assets.xcassets */; };
 		439C1D63292015E4003A1BA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 439C1D62292015E4003A1BA8 /* Preview Assets.xcassets */; };
+		439C1D6C29203E19003A1BA8 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439C1D6B29203E19003A1BA8 /* MenuView.swift */; };
+		43BD0F752920F65900232202 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BD0F742920F65900232202 /* Food.swift */; };
+		43BD0F792921253700232202 /* FoodRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BD0F782921253700232202 /* FoodRow.swift */; };
+		43BD0F7F2921502500232202 /* ReservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BD0F7E2921502500232202 /* ReservationView.swift */; };
+		43BD0F8B29217F2C00232202 /* CaviarDreams.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43BD0F8A29217F2C00232202 /* CaviarDreams.ttf */; };
+		4B8A122729228C1B00F8CB14 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8A122629228C1B00F8CB14 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		439C1D5F292015E4003A1BA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		439C1D62292015E4003A1BA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		439C1D64292015E4003A1BA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		439C1D6B29203E19003A1BA8 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		43BD0F742920F65900232202 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		43BD0F782921253700232202 /* FoodRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRow.swift; sourceTree = "<group>"; };
+		43BD0F7E2921502500232202 /* ReservationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationView.swift; sourceTree = "<group>"; };
+		43BD0F8A29217F2C00232202 /* CaviarDreams.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams.ttf; sourceTree = "<group>"; };
+		4B8A122629228C1B00F8CB14 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +64,14 @@
 		439C1D5A292015DA003A1BA8 /* Timber */ = {
 			isa = PBXGroup;
 			children = (
+				43BD0F8A29217F2C00232202 /* CaviarDreams.ttf */,
 				439C1D5B292015DB003A1BA8 /* TimberApp.swift */,
 				439C1D5D292015DB003A1BA8 /* ContentView.swift */,
+				43BD0F7E2921502500232202 /* ReservationView.swift */,
+				43BD0F742920F65900232202 /* Food.swift */,
+				43BD0F782921253700232202 /* FoodRow.swift */,
+				439C1D6B29203E19003A1BA8 /* MenuView.swift */,
+				4B8A122629228C1B00F8CB14 /* MapView.swift */,
 				439C1D5F292015E4003A1BA8 /* Assets.xcassets */,
 				439C1D64292015E4003A1BA8 /* Info.plist */,
 				439C1D61292015E4003A1BA8 /* Preview Content */,
@@ -128,6 +146,7 @@
 			files = (
 				439C1D63292015E4003A1BA8 /* Preview Assets.xcassets in Resources */,
 				439C1D60292015E4003A1BA8 /* Assets.xcassets in Resources */,
+				43BD0F8B29217F2C00232202 /* CaviarDreams.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +158,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				439C1D5E292015DB003A1BA8 /* ContentView.swift in Sources */,
+				4B8A122729228C1B00F8CB14 /* MapView.swift in Sources */,
+				43BD0F7F2921502500232202 /* ReservationView.swift in Sources */,
+				439C1D6C29203E19003A1BA8 /* MenuView.swift in Sources */,
+				43BD0F752920F65900232202 /* Food.swift in Sources */,
+				43BD0F792921253700232202 /* FoodRow.swift in Sources */,
 				439C1D5C292015DB003A1BA8 /* TimberApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
